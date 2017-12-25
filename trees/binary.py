@@ -123,6 +123,42 @@ def remove(root, value):
         root.value = sl_value
         return root
 
+
+def inorder(root):
+    if root is None:
+        return []
+
+    L = []
+    L.extend(inorder(root.left))
+    L += [root.value]
+    L.extend(inorder(root.right))
+
+    return L
+
+
+def preorder(root):
+    if root is None:
+        return []
+
+    L = []
+    L += [root.value]
+    L.extend(preorder(root.left))
+    L.extend(preorder(root.right))
+
+    return L
+
+
+def postorder(root):
+    if root is None:
+        return []
+
+    L = []
+    L.extend(postorder(root.left))
+    L.extend(postorder(root.right))
+    L += [root.value]
+
+    return L
+
 if __name__ == '__main__':
     import random
     randomize = range(1,15)
@@ -134,6 +170,9 @@ if __name__ == '__main__':
         assert search(tree, i) == True
 
     print(tree)
+    print("Inorder", inorder(tree))
+    print("Preorder", preorder(tree))
+    print("Postorder", postorder(tree))
 
     for i in randomize:
         tree = remove(tree, i)
