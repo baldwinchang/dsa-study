@@ -11,7 +11,7 @@
 
         Time-complexity:
         - O(N) if we have a pathological tree (pretty much a linked list)
-        - O(NLogN) if we have a balanced binary tree
+        - O(LogN) if we have a balanced binary tree
 
     Insertion (non self balancing):
         1) Traverse the BST until we find an open space (leaf)
