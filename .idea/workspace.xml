@@ -145,9 +145,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="2560" />
+    <option name="y" value="22" />
+    <option name="width" value="2095" />
     <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -273,7 +273,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.spiral">
-    <configuration default="false" name="8-7-permutations_without_dupes." type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="8-7-permutations_without_dupes." type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dsa-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -284,14 +285,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="dsa-study" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctci/08-recursion-and-dynamic-programming/8-7-permutations_without_dupes..py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="false" name="8-9-parens" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="8-9-parens" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dsa-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -302,14 +303,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="dsa-study" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctci/08-recursion-and-dynamic-programming/8-9-parens.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="false" name="spiral" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spiral" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dsa-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -320,12 +321,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="dsa-study" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/firecode/spiral.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -377,35 +377,30 @@
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="dsa-study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="dsa-study" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.8-7-permutations_without_dupes." />
-      <item index="1" class="java.lang.String" itemvalue="Python.8-9-parens" />
-      <item index="2" class="java.lang.String" itemvalue="Python.spiral" />
+    <list>
+      <item itemvalue="Python.8-7-permutations_without_dupes." />
+      <item itemvalue="Python.8-9-parens" />
+      <item itemvalue="Python.spiral" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.spiral" />
-        <item index="1" class="java.lang.String" itemvalue="Python.8-9-parens" />
-        <item index="2" class="java.lang.String" itemvalue="Python.8-7-permutations_without_dupes." />
+      <list>
+        <item itemvalue="Python.spiral" />
+        <item itemvalue="Python.8-9-parens" />
+        <item itemvalue="Python.8-7-permutations_without_dupes." />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -12,7 +12,7 @@
     Really good! Space is minimal at O(n), as you need to store a node for every value.
 """
 
-from lists.linkedlist import LL
+from dsa.lists import LL
 
 class Stack:
 

@@ -22,7 +22,7 @@ You do this for each element we add to the BST. Therefore, we have a complexity 
 
 """
 
-from trees.binary import insert
+from dsa.trees.binary import insert
 
 def create_minimal_tree(arr):
     to_process = [arr]
